@@ -18,35 +18,48 @@
     </head>
 <body>
 
-    <header class="bg-warning position-sticky top-0 left-0 right-0">
-        <div class="row">
-            <div class="col-auto">
-                <div class="border border-danger-subtle">
+    <header class="bg-light position-sticky top-0 left-0 right-0">
+        <div class="container-fluid">
 
-                    left
+            <div class="row">
+                <div class="col-auto">
+                    <nav>
+                        <div class="pt-3 d-none d-lg-inline-block">
+                            <a class="navbar-brand" href="#">
+                                <img  src="img/logo.svg" alt="">
+                            </a>
+                        </div>
+
+                        <!-- <div class="pt-3 logo_small d-lg-none w-25">
+                            <a class="navbar-brand" href="#">
+                                <img src="img/mobile-logo.png" alt="">
+                            </a>
+                        </div> -->
+                    </nav>
                 </div>
-            </div>
-            
-            <div class="col">
-                <div>
-
-                    center
+                
+                <div class="col">
+                    <form role="search" class=" position-relative">
+                        <input class="form-control search_control border-0 bg-secondary-subtle ps-4" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                        <i class=" fa-solid fa-magnifying-glass"></i>
+                      </form>
                 </div>
-            </div>
 
-            <div class="col-auto">
-                <div class="border border-danger-subtle">
+                <div class="col-auto">
+                    <div class="">
 
-                    right
+                        right
+                    </div>
                 </div>
             </div>
         </div>
-
     </header>
 
 
     <main>
         <div class="row gx-0">
+
+            <!-- Aside -->
 
             <div class="col-auto my_aside">
                 <aside class="bg-dark text-white d-flex flex-column">
@@ -94,8 +107,12 @@
                 </aside>
             </div>
 
+            <!-- Main centrale -->
+
             <div class="col main_section">
                 <section>
+
+                    <!-- main top -->
 
                     <div class="row gx-0 ps-2 bg-primary">
                         <div class="col-xs-12 col-md-4 col-lg-6 order-1 order-md-1">
@@ -296,13 +313,14 @@
                                             <button type="sumbit" class="btn btn-primary"> Salva</button>
                                             <button type="reset" class="btn btn-warning">Svuota</button>
                                         </div>
-                                      
                                     </div>
-                                  </div>
+                                    
+                                </div>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Inizio cards -->
                     <div class="row gx-0">
                         <div class="col-xs-12 col-lg-7 px-2 py-3">
 
@@ -369,10 +387,6 @@
                         </div>
                         
                     </div>
-
-
-
-
 
                 </section>
             </div>
