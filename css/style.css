@@ -29,7 +29,9 @@ MAIN
     height: 100%;
 }
 
-
+.my_offcanvas{
+    --bs-offcanvas-width: 100%;
+}
 
 
 /* 
@@ -45,6 +47,10 @@ MEDIA QUERY da Mobile first
 
 /* Desktop */
 @media screen and (min-width: 992px){
+    
+    .my_offcanvas{
+        --bs-offcanvas-width: 40%;
+    }
     
 }
 
