@@ -1,4 +1,3 @@
-@import url(reset.css);
 @import url(general.css);
 
 /* 
@@ -17,21 +16,6 @@ FOOTER
 
 
 
-/* 
-MEDIA QUERY da Desktop first
-*/
-
-/* Tablet */
-
-@media screen and (max-width: 768px){
-
-}
-
-
-/* Mobile */
-@media screen and (max-width: 576px){
-    
-}
 
 
 
