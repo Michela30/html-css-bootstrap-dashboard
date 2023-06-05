@@ -1,21 +1,33 @@
 @import url(general.css);
 
+
+body{
+    overflow-x:hidden;
+}
+
 /* 
 HEADER
 */
 header{
     height: 3.75rem;
+    width: 100%;
+
 }
 /* 
 MAIN
 */
 
-main aside{
+
+.my_aside > aside{
+    overflow: hidden;
     height: calc(100vh - 3.75rem);
-    overflow-y: hidden;
 }
 
-
+.main_section{
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+}
 
 
 
