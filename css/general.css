@@ -9,8 +9,18 @@
 
 :root{
     --mr-bell-color: #FF8F00;
+    --mr-badge-color: #165BBA;
+    --mr-main-top-color: #1B72E8;
 }
 
 .mr-bell-color{
     color: #FF8F00;
+}
+
+.mr-badge-color{
+    background-color: #165BBA;
+}
+
+.mr-main-top-color{
+    background-color: #1B72E8;
 }
