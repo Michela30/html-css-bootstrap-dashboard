@@ -11,6 +11,8 @@
     --mr-bell-color: #FF8F00;
     --mr-badge-color: #165BBA;
     --mr-main-top-color: #1B72E8;
+    --mr-search-bar: #E5E5E5;
+    --mr-header: #F8F9FA;
 }
 
 .mr-bell-color{
@@ -23,4 +25,11 @@
 
 .mr-main-top-color{
     background-color: #1B72E8;
+}
+
+.mr-search-bar{
+    background-color: #E5E5E5;
+}
+.mr-header{
+    background-color: #F8F9FA;
 }
