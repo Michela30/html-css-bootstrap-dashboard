@@ -27,7 +27,16 @@ header{
 MAIN
 */
 
+.aside-up ul li:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+.aside-down ul li:hover {
+    background-color: rgba(255,255,255,0.5);
+}
 
+.my_aside{
+    background-image: url(../img/sidebar-bg.png);
+}
 .my_aside > aside{
     overflow: hidden;
     height: calc(100vh - 3.75rem);
@@ -43,6 +52,16 @@ MAIN
     --bs-offcanvas-width: 100%;
 }
 
+.title_table{
+    font-size: 0.7em;
+}
+.text_table{
+    font-size: 0.8em;
+}
+.avatar_img{
+    width: 20px;
+    height: 20px;
+}
 
 /* 
 MEDIA QUERY da Mobile first
