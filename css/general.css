@@ -6,3 +6,11 @@
     margin: 0 auto;
     max-width: 1200px;
 }
+
+:root{
+    --mr-bell-color: #FF8F00;
+}
+
+.mr-bell-color{
+    color: #FF8F00;
+}

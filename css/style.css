@@ -14,7 +14,8 @@ header{
 
 }
 .logo_small a > img{
-    width: 5%;
+    width: 100%;
+    height: 3.125rem;
 }
 
 .search_control {
@@ -38,7 +39,7 @@ MAIN
 .main_section{
     overflow-y: auto;
     width: 100%;
-    height: 100%;
+    height: calc(100vh -  3.75rem);
 }
 
 .my_offcanvas{
